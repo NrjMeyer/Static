@@ -1573,7 +1573,10 @@ input[type=checkbox] {
 }
 
 .mt-30 {
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-left:30px ;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.4)
 }
 
 .mt-40 {
@@ -3127,13 +3130,14 @@ input[type=checkbox] {
     - Multilevel Submenu Css
 ====================================*/
 .submenu {
+  color: #ffffff;
   position: absolute;
   top: 100%;
   left: 0;
-  -webkit-box-shadow: 0 2px 29px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 2px 29px rgba(0, 0, 0, 0.05);
-  border-bottom: 3px solid #086AD8;
-  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 29px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 29px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #080808;
+  background-color: #605f5f;
   -webkit-transform: translateY(50px);
       -ms-transform: translateY(50px);
           transform: translateY(50px);
@@ -3158,7 +3162,7 @@ input[type=checkbox] {
 .submenu > li > a {
   display: block;
   padding: 5px 30px;
-  color: #ababab;
+  color: #ffffff;
   font-weight: 400;
   -webkit-transition: 0s;
   -o-transition: 0s;
@@ -3176,13 +3180,13 @@ input[type=checkbox] {
   left: auto;
   right: 0;
   z-index: -1;
-  background-color: #086AD8;
+  background-color: #010101;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 .submenu > li > a:hover {
-  color: #086AD8;
+  color: #0c0c0c;
 }
 .submenu > li > a:hover > span:after {
   width: 100%;
@@ -5433,6 +5437,7 @@ ul.footer-widget__horizontal-list li {
   transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   text-align: center;
   margin-top: 60px;
+  height: 100vh;
 }
 .ht-box-images.style-01 .image-box-wrap .box-image {
   text-align: center;
@@ -11896,9 +11901,10 @@ blockquote {
 .service-hero-bg {
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("../images/hero/home-services-hero-bg.webp");
+  background-color: rgba(42, 42, 42,0.8);
   background-size: cover;
   background-position: 50% 50%;
+  height: 100vh;
 }
 
 .service-hero-space {
