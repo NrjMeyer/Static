@@ -14039,6 +14039,7 @@ blockquote {
 
 .tag {
   display: flex;
+  text-wrap: nowrap;
   align-items: center;
   gap: 0 0.2rem;
   color: #e2e8f0;
